@@ -11,7 +11,7 @@ See [tips](.architecture.md)
 
 ## 2020
 
-See the inputs directory for more description on the challenges themselved.
+See the inputs directory for more description on the challenges.
 
 ### day 1: Report Repair
 * parse the file (one value per line), thanks to iterators
