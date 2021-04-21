@@ -7,7 +7,7 @@ Notes:
 * there's not a single way to solve those challenges, maybe you'll find better ways. I personnally use it mostly as a teaching tool
 
 ## use as a template
-See [tips](./architecture.md)
+See [tips](architecture.md)
 
 ## 2020
 
