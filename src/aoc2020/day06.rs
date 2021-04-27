@@ -17,6 +17,7 @@ pub fn challenge() {
 }
 
 fn distinct_yes(input: &str) -> usize {
+
     input
         .split("\n\n")   // split into a vec of responses
         .map(|line| {    // map each line in a response
