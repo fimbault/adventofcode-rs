@@ -14,12 +14,12 @@ pub fn challenge() {
     let target: u16 = 2020;
     let(x,y) = search(&nums, target);
     let s1: u32 = u32::from(x) * u32::from(y);
-    println!("day1 / part1: with x = {} and y = {}, x+y = 2020, x*y= {}", x, y, s1);
+    println!("day1 (part1): with x = {} and y = {}, x+y = 2020, x*y= {}", x, y, s1);
 
     // part 2 : search for target = 2020 = x+y+z
     let(x,y,z) = search_3(&nums, target);
     let s2: u32 = u32::from(x) * u32::from(y) * u32::from(z);
-    println!("day1 / part2: with x = {} and y = {} and z = {}, x+y+z = 2020, x*y*z= {}", x, y, z, s2);
+    println!("day1 (part2): with x = {} and y = {} and z = {}, x+y+z = 2020, x*y*z= {}", x, y, z, s2);
 }
 
 // part 1

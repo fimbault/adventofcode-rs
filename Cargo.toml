@@ -10,5 +10,5 @@ edition = "2018"
 dotenv = "0.15.0"
 curl = "0.4.36"
 anyhow = "1.0"
-regex = { version="*", features = ["pattern"]} 
+regex = "1.4.5" 
 lazy_static = "1.4.0"

@@ -4,13 +4,13 @@ mod puzzle;
 fn main() {
     println!("Start advent of code challenge");
 
-    //run_solutions();
+    run_solutions();
     run_current();
 }
 
 fn run_current()
 {
-    aoc2020::day05::challenge();
+    aoc2020::day06::challenge();
 }
 
 #[allow(dead_code)]

@@ -4,7 +4,7 @@ use crate::puzzle::get_puzzle;
 pub fn challenge() {
     let input = get_puzzle(2020, 3).unwrap();
 
-    println!("day 3: num trees = {}", count_trees(&input, 3, 1));
+    println!("day 3 (part 1): num trees = {}", count_trees(&input, 3, 1));
 
     let a = count_trees(&input, 1, 1);
     let b = count_trees(&input, 3, 1);
@@ -12,7 +12,7 @@ pub fn challenge() {
     let d = count_trees(&input, 7, 1);
     let e = count_trees(&input, 1, 2);
 
-    println!("day 3 - part 2: num trees = {}", a*b*c*d*e);
+    println!("day 3 (part 2): num trees = {}", a*b*c*d*e);
 
 }
 
