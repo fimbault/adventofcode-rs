@@ -12,6 +12,11 @@ Notes:
 
 See [tips](ARCHITECTURE.md)
 
+Commands:
+
+- `cargo run` will build the solutions and run the main function
+- `cargo test` will launch the tests defined in the project
+
 ## 2020
 
 See the inputs directory for more description on the challenges.
