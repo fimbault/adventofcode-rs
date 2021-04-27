@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use crate::puzzle::get_puzzle;
 use std::collections::HashSet;
 
@@ -6,6 +7,7 @@ use std::collections::HashSet;
 // Filters works similarly only that it will only return elements that meet a certain criteria. 
 // Folds will apply a function whose purpose is to accumulate all the elements in the vector into a single value. 
 // The collect() function is used to return a new Vec of values.
+// See https://mmstick.gitbooks.io/rust-programming-phoronix-reader-how-to/content/chapter02.html
 
 pub fn challenge() {
     let input = get_puzzle(2020, 6).unwrap();

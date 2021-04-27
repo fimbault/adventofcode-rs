@@ -10,7 +10,7 @@ fn main() {
 
 fn run_current()
 {
-    aoc2020::day06::challenge();
+    aoc2020::day07::challenge();
 }
 
 #[allow(dead_code)]
@@ -21,4 +21,5 @@ fn run_solutions()
     aoc2020::day03::challenge();
     aoc2020::day04::challenge();
     aoc2020::day05::challenge();
+    aoc2020::day06::challenge();
 }
