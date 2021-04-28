@@ -52,3 +52,5 @@ See the inputs directory for more description on the challenges.
 ### day 7: Handy Haversacks
 
 - parse the file and process the data using hashmap and hashset
+- the solution uses lifetimes as we define structs that contain references
+- we also implement tests, and use derive macros for eq/partialeq
