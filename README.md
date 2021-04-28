@@ -48,3 +48,7 @@ See the inputs directory for more description on the challenges.
 ### day 6: Custom Customs
 
 - more functional programming on iterators (maps, folds)
+
+### day 7: Handy Haversacks
+
+- parse the file and process the data using hashmap and hashset
