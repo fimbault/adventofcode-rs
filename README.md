@@ -54,3 +54,6 @@ See the inputs directory for more description on the challenges.
 - parse the file and process the data using hashmap and hashset
 - the solution uses lifetimes as we define structs that contain references
 - we also implement tests, and use derive macros for eq/partialeq
+- part 2 left as an exercice for the reader
+
+### day 8 : Day 8: Handheld Halting

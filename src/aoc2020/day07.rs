@@ -11,7 +11,7 @@ pub fn challenge() {
     let input = get_puzzle(2020, 7).unwrap();
 
     println!("day 7 (part 1): number of colors = {}", num_shinygold_p1(&input));
-    println!("day 7 (part 2): not implemented");
+    println!("day 7 (part 2): not implemented / test = {}", num_shinygold_p2(&input));
 
 }
 
@@ -32,6 +32,9 @@ fn num_shinygold_p1(input: &str) -> usize {
 
 // part2
 fn num_shinygold_p2(input: &str) -> usize {
+
+    // do something with input
+    let _a = input;
 
     // only to make the test pass
     126
