@@ -92,12 +92,6 @@ impl<'a> State<'a> {
             Opcode::Jmp => self.pos = (self.pos as isize + next_op.val) as usize,
         }
     }
-
-    fn run(&mut self) {
-        while self.pos < self.ops.len() && !self.history.contains(&self.pos) {
-            self.next();
-        }
-    }
 }
 
 fn execute(input: &str) -> isize {
