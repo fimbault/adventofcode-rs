@@ -64,8 +64,8 @@ See the inputs directory for more description on the challenges.
 
 ### day 9: Encoding Error
 
-- here we use crate itertools to simplify
 - need to create slices of use only a part of the data (preamble vs remaining)
+- here we use crate itertools to simplify the is_sum function
 - part 2 left as an exercice to the reader
 
 ### day 10: Adapter Array
