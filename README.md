@@ -75,3 +75,4 @@ See the inputs directory for more description on the challenges.
 ### day 11: Seating System
 
 - simple conversion from char to enum (from) - we don't use tryfrom as we expect no error
+- hashmap to represent the layout
