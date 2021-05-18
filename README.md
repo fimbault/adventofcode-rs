@@ -58,7 +58,8 @@ See the inputs directory for more description on the challenges.
 
 ### day 8: Handheld Halting
 
-- map strings to enums and implement a basic state machine (computer instructions)
+- map strings to enums (using try_from)
+- implement a basic state machine (computer instructions)
 - part 2 left as an exercice to the reader
 
 ### day 9: Encoding Error
@@ -68,3 +69,9 @@ See the inputs directory for more description on the challenges.
 - part 2 left as an exercice to the reader
 
 ### day 10: Adapter Array
+
+- basic operations with vectors (sort, push, insert, filter on a value and count)
+
+### day 11: Seating System
+
+- simple conversion from char to enum (from) - we don't use tryfrom as we expect no error
