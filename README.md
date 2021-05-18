@@ -58,7 +58,7 @@ See the inputs directory for more description on the challenges.
 
 ### day 8: Handheld Halting
 
-- nothing really new
+- map strings to enums and implement a basic state machine (computer instructions)
 - part 2 left as an exercice to the reader
 
 ### day 9: Encoding Error
@@ -66,3 +66,5 @@ See the inputs directory for more description on the challenges.
 - here we use crate itertools to simplify
 - need to create slices of use only a part of the data (preamble vs remaining)
 - part 2 left as an exercice to the reader
+
+### day 10: Adapter Array
