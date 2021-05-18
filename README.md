@@ -56,4 +56,13 @@ See the inputs directory for more description on the challenges.
 - we also implement tests, and use derive macros for eq/partialeq
 - part 2 left as an exercice for the reader
 
-### day 8 : Day 8: Handheld Halting
+### day 8: Handheld Halting
+
+- nothing really new
+- part 2 left as an exercice to the reader
+
+### day 9: Encoding Error
+
+- here we use crate itertools to simplify
+- need to create slices of use only a part of the data (preamble vs remaining)
+- part 2 left as an exercice to the reader
